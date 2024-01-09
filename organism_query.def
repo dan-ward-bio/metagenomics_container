@@ -24,6 +24,7 @@ From: ubuntu:20.04
     /bin/bash -c 'source /opt/conda/etc/profile.d/conda.sh'
 
 %runscript
-    /bin/bash -c 'source /opt/conda/etc/profile.d/conda.sh && conda activate organism_query && python /organism_query/launcher.py'
+    cd /organism_query/
+    /bin/bash -c 'source /opt/conda/etc/profile.d/conda.sh && conda activate organism_query && python launcher.py'
     
     

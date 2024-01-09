@@ -5,4 +5,4 @@ Setting limit for container to run
 ```ulimit -n 20000```
 
 
-```singularity shell --bind /tmp/.X11-unix:/tmp/.X11-unix --bind /:/mnt --env DISPLAY=$DISPLAY organism_query.sif```
+```apptainer shell --bind /tmp/.X11-unix:/tmp/.X11-unix --bind /:/mnt --env DISPLAY=$DISPLAY organism_query.sif```
